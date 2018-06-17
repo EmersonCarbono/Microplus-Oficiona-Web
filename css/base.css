@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #2B55EF;
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#container-titulo-cabecalho h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#container-menu-cabecalho{
+    margin-top: 10px;
+}
+
+#container-menu-cabecalho ul{
+    display: flex;
+    justify-content: center;
+}
+
+#container-menu-cabecalho ul li{
+    display: inline-block;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #2B55EF;
+}
+
+#container-rede-social ul{
+    padding: 20px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#container-rede-social ul li{
+    display: inline-block;
+    margin-left: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+#container-rede-social a{
+    text-decoration: none;
+}
