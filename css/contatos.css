@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+#contato{
+    display: flex;
+    justify-content: center;
+}
+
+#form-contato{
+    width: 50%;
+    margin: 20px auto 20px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 2px solid #0f1427;
+    background-color: #0f1427;
+    padding: 4%;
+}
+
+#form-contato label{
+    width: 100%;
+    margin-bottom: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+#form-contato input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#form-contato textarea{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+#form-contato button{
+    background-color: #063246;
+    border: 1px solid white;
+    padding: 8px 20px;
+    width: 50%;
+    
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100%;
+    text-align: center;
+}
+
+#form-contato h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 0px auto 20px auto;
+    text-align: center;
+    padding: 0px;
+    color: white;
+}
